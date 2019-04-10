@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/brucellino
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://brucellino.github.io
+  * I am brucellino (https://keybase.io/brucellino) on keybase.
+  * I have a public key ASBPplzn_fs8eSGBeVEN07Fhej3nWpK8k5zpvCrhrie2sAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120f24e81761588915794c8ebfc57dbd8e48f19b65288706cdd25bc244ccfdf55980a",
+      "host": "keybase.io",
+      "kid": "01204fa65ce7fdfb3c79218179510dd3b1617a3de75a92bc939ce9bc2ae1ae27b6b00a",
+      "uid": "0ba83ba5b8330435ea6817ab295c0719",
+      "username": "brucellino"
+    },
+    "merkle_root": {
+      "ctime": 1554885157,
+      "hash": "dea3f785acfc0973ea5635007212a31de07436c11849367f85cd5b1aee9eb94c7797e34349a94aca3665e99a1f4a223a096d8ce5d048a809251c925eda214287",
+      "hash_meta": "9be91439283103345ee086fc47d3e847fbe159cad9ad4506b499b4bc778b48c1",
+      "seqno": 5132820
+    },
+    "service": {
+      "entropy": "70g+5sAdMJ8mAUzfwUlIjq+t",
+      "hostname": "brucellino.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1554885188,
+  "expire_in": 504576000,
+  "prev": "32ec3a36cb1827df4dfe384c772283d2a2ace537414cf0e126c95cdf3774fc08",
+  "seqno": 45,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgT6Zc5/37PHkhgXlRDdOxYXo951qSvJOc6bwq4a4ntrAKp3BheWxvYWTESpcCLcQgMuw6NssYJ99N/jhMdyKD0qKs5TdBTPDhJslc3zd0/AjEIFsAO3r772P5Z0y1YRY68UnsXkcf4mi2FiIrF6byRYIaAgHCo3NpZ8RAIuryylVrd04iy5cxKJzp6iCSfCX6cqa9oD62F+vMuKApbruYZgdni1ekv/IJYKig4EacdXi8yLs+Shqw9fBACqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDyOjrj6gMHji0WkeauLMjrPPrAwszVwN4KEyqyvU03Fo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/brucellino
+
+==================================================================
