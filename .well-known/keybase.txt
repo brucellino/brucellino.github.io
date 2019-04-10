@@ -6,7 +6,7 @@ I hereby claim:
 
   * I am an admin of https://brucellino.github.io
   * I am brucellino (https://keybase.io/brucellino) on keybase.
-  * I have a public key ASDyToF2FYiRV5TI6_xX29jkjxm2UohwbN0lvCRMz99VmAo
+  * I have a public key ASBPplzn_fs8eSGBeVEN07Fhej3nWpK8k5zpvCrhrie2sAo
 
 To do so, I am signing this object:
 
@@ -15,18 +15,18 @@ To do so, I am signing this object:
     "key": {
       "eldest_kid": "0120f24e81761588915794c8ebfc57dbd8e48f19b65288706cdd25bc244ccfdf55980a",
       "host": "keybase.io",
-      "kid": "0120f24e81761588915794c8ebfc57dbd8e48f19b65288706cdd25bc244ccfdf55980a",
+      "kid": "01204fa65ce7fdfb3c79218179510dd3b1617a3de75a92bc939ce9bc2ae1ae27b6b00a",
       "uid": "0ba83ba5b8330435ea6817ab295c0719",
       "username": "brucellino"
     },
     "merkle_root": {
-      "ctime": 1546958479,
-      "hash": "5a6a18a0ae0e2b7fc57429704ce04fa55347e64fe1a511de15966e1b1360d22e93e520224ef59f81f2be9c2a5d89b97699494ac3dc1700f69a4681204676505f",
-      "hash_meta": "5672fda625b1ad8128974c76b712bfe8a19683afc4bd99a767f76cc6435d961f",
-      "seqno": 4252347
+      "ctime": 1554885157,
+      "hash": "dea3f785acfc0973ea5635007212a31de07436c11849367f85cd5b1aee9eb94c7797e34349a94aca3665e99a1f4a223a096d8ce5d048a809251c925eda214287",
+      "hash_meta": "9be91439283103345ee086fc47d3e847fbe159cad9ad4506b499b4bc778b48c1",
+      "seqno": 5132820
     },
     "service": {
-      "entropy": "PBfe7BFdo8GNmMG5IcM2aAki",
+      "entropy": "70g+5sAdMJ8mAUzfwUlIjq+t",
       "hostname": "brucellino.github.io",
       "protocol": "https:"
     },
@@ -35,20 +35,22 @@ To do so, I am signing this object:
   },
   "client": {
     "name": "keybase.io go client",
-    "version": "2.13.0"
+    "version": "3.1.2"
   },
-  "ctime": 1546958536,
+  "ctime": 1554885188,
   "expire_in": 504576000,
-  "prev": "0f3c71ef98199e4842b32f337a5228d20b87e4890a950ea2a5460cf17140c7f3",
-  "seqno": 22,
+  "prev": "32ec3a36cb1827df4dfe384c772283d2a2ace537414cf0e126c95cdf3774fc08",
+  "seqno": 45,
   "tag": "signature"
 }
 
 which yields the signature:
 
-hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg8k6BdhWIkVeUyOv8V9vY5I8ZtlKIcGzdJbwkTM/fVZgKp3BheWxvYWTESpcCFsQgDzxx75gZnkhCsy8zelIo0guH5IkKlQ6ipUYM8XFAx/PEIO+d/DTLuDRoRqaSlZDhbfXXkGvz4DwInwMpnfTpSJELAgHCo3NpZ8RAje8lPoIQU/boFAB75v+AthRkzRpdDjGs7dx2OfrCXh2JJt88fvqCEV9UBbWRTobigL+HTAbU/6K9At2f3k2ZDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFU9jQervxZ+DI1feUEA2t0JPy6CbYcbMQVZq5n+4e4yo3RhZ80CAqd2ZXJzaW9uAQ==
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgT6Zc5/37PHkhgXlRDdOxYXo951qSvJOc6bwq4a4ntrAKp3BheWxvYWTESpcCLcQgMuw6NssYJ99N/jhMdyKD0qKs5TdBTPDhJslc3zd0/AjEIFsAO3r772P5Z0y1YRY68UnsXkcf4mi2FiIrF6byRYIaAgHCo3NpZ8RAIuryylVrd04iy5cxKJzp6iCSfCX6cqa9oD62F+vMuKApbruYZgdni1ekv/IJYKig4EacdXi8yLs+Shqw9fBACqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDyOjrj6gMHji0WkeauLMjrPPrAwszVwN4KEyqyvU03Fo3RhZ80CAqd2ZXJzaW9uAQ==
 
 And finally, I am proving ownership of this host by posting or
 appending to this document.
 
 View my publicly-auditable identity here: https://keybase.io/brucellino
+
+==================================================================
