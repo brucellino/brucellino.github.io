@@ -1,3 +1,1 @@
-<script>
-  var typed = new Typed('#typed', {stringsElement: '#typed-strings'});
-</script>
+var typed = new Typed("#typed", { stringsElement: "#typed-strings" });
