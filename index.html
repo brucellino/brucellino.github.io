@@ -1,235 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en" class="no-js">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Bruce Becker Ph.D.</title>
-		<meta name="google-site-verification" content="3yxDnnmP4fLTw1ABJ1C9vhMGFzzwwQamnl24KZKGFn0" />
-		<meta name="keywords" content="Dr. Bruce Becker Ph.D. Digital Delta brucellino landing page" />
-		<meta name="description" content="Bruce Becker Ph.D.'s home page'" />
-		<meta name="keywords" content="landing page" />
-		<meta name="author" content="Bruce Becker" />
-		<link rel="shortcut icon" href="../favicon.ico">
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/demo.css" />
-		<link rel="stylesheet" type="text/css" href="css/component.css" />
-		<!--[if IE]>
-  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-	</head>
-	<body class="demo-6">
-	<script src="https://use.fontawesome.com/00346cae10.js"></script>
-		<div id="container" class="container intro-effect-grid">
-			<header class="header">
-				<ul class="grid">
-					<a href="http://brucellino.github.io/blog/"><li><h2>Personal Writing</h2></li></a>
-					<li><a href="research"><h2>Academic and Research</h2></a></li>
-					<!-- <li><a href="http://brucellino.github.io/digital-delta/">-->
-					<li><h2>Digital Delta (... coming soon )</h2></li>
-				</ul>
-				<div class="bg-img"><img src="img/background-4.jpg" alt="Background Image"/></div>
-				<!-- <nav class="nav nav-inline bg-img">
-					<ul>
-						<li>
-							<a href="cv/">CV</a>
-						</li>
-						<li>
-							<a href="http://brucellino.github.io/projects/">Projects</a>
-						</li>
-					</ul>
-				</nav> -->
-				<div class="title">
-
-					<h1>Bruce Becker Ph.D.</h1>
-					<h3><a href="http://orcid.org/0000-0002-6607-7145"><img src="img/ID_symbol_B-W_64x64.png" style="height: 0.9em" /> orcid.org/0000-0002-6607-7145</a></h3>
-					<h1>
-					<table cellpadding="10" align="center">
-						<tr>
-							<td>
-								<a href="http://www.twitter.com/brusisceddu"><i class="fa fa-twitter-square"></i></a>
-							</td>
-							<td>
-								<a href="https://www.linkedin.com/in/brucellino/"><i class="fa fa-linkedin-square"></i></a>
-							</td>
-							<td>
-								<a href="https://www.flickr.com/photos/brucellino/"><i class="fa fa-flickr"></i></a>
-							</td>
-							<td>
-								<a href="https://medium.com/@brusisceddu"><i class="fa fa-medium"></i></a>
-							</td>
-						</tr>
-						<tr>
-							<td>
-									<a href="https://github.com/brucellino"><i class="fa fa-github-square"></i>
-							</td>
-							<td>
-								<a href="http://stackoverflow.com/users/story/2707870"><i class="fa fa-stack-overflow"></i></a>
-							</td>
-							<td>
-								<a href="http://stackexchange.com/users/3206984/bruce-becker"><i class="fa fa-stack-exchange"></i></a>
-							</td>
-							<td>
-								<a href="https://scholar.google.it/citations?user=IjK816QAAAAJ&hl=en"><i class="fa fa-graduation-cap"></i></a>
-							</td>
-						</tr>
-					</table>
-				</h1>
-						<p class="subline">An African in the world</p>
-				</div>
-			</header>
-			<button class="trigger" data-info="What lies beneath ?"><span>Trigger</span></button>
-			<article class="content">
-				<div>
-					<p>
-						Bruce  Becker: ex volleyball freak and physicist. jack of all trades, master of none, re-implementer of dubious ideas. doubledad.
-					</p>
-				</div>
-			</article>
-
-		</div><!-- /container -->
-		<script src="js/classie.js"></script>
-		<script>
-			(function() {
-
-				// detect if IE : from http://stackoverflow.com/a/16657946
-				var ie = (function(){
-					var undef,rv = -1; // Return value assumes failure.
-					var ua = window.navigator.userAgent;
-					var msie = ua.indexOf('MSIE ');
-					var trident = ua.indexOf('Trident/');
-
-					if (msie > 0) {
-						// IE 10 or older => return version number
-						rv = parseInt(ua.substring(msie + 5, ua.indexOf('.', msie)), 10);
-					} else if (trident > 0) {
-						// IE 11 (or newer) => return version number
-						var rvNum = ua.indexOf('rv:');
-						rv = parseInt(ua.substring(rvNum + 3, ua.indexOf('.', rvNum)), 10);
-					}
-
-					return ((rv > -1) ? rv : undef);
-				}());
-
-
-				// disable/enable scroll (mousewheel and keys) from http://stackoverflow.com/a/4770179
-				// left: 37, up: 38, right: 39, down: 40,
-				// spacebar: 32, pageup: 33, pagedown: 34, end: 35, home: 36
-				var keys = [32, 37, 38, 39, 40], wheelIter = 0;
-
-				function preventDefault(e) {
-					e = e || window.event;
-					if (e.preventDefault)
-					e.preventDefault();
-					e.returnValue = false;
-				}
-
-				function keydown(e) {
-					for (var i = keys.length; i--;) {
-						if (e.keyCode === keys[i]) {
-							preventDefault(e);
-							return;
-						}
-					}
-				}
-
-				function touchmove(e) {
-					preventDefault(e);
-				}
-
-				function wheel(e) {
-					// for IE
-					//if( ie ) {
-						//preventDefault(e);
-					//}
-				}
-
-				function disable_scroll() {
-					window.onmousewheel = document.onmousewheel = wheel;
-					document.onkeydown = keydown;
-					document.body.ontouchmove = touchmove;
-				}
-
-				function enable_scroll() {
-					window.onmousewheel = document.onmousewheel = document.onkeydown = document.body.ontouchmove = null;
-				}
-
-				var docElem = window.document.documentElement,
-					scrollVal,
-					isRevealed,
-					noscroll,
-					isAnimating,
-					container = document.getElementById( 'container' ),
-					trigger = container.querySelector( 'button.trigger' );
-
-				function scrollY() {
-					return window.pageYOffset || docElem.scrollTop;
-				}
-
-				function scrollPage() {
-					scrollVal = scrollY();
-
-					if( noscroll && !ie ) {
-						if( scrollVal < 0 ) return false;
-						// keep it that way
-						window.scrollTo( 0, 0 );
-					}
-
-					if( classie.has( container, 'notrans' ) ) {
-						classie.remove( container, 'notrans' );
-						return false;
-					}
-
-					if( isAnimating ) {
-						return false;
-					}
-
-					if( scrollVal <= 0 && isRevealed ) {
-						toggle(0);
-					}
-					else if( scrollVal > 0 && !isRevealed ){
-						toggle(1);
-					}
-				}
-
-				function toggle( reveal ) {
-					isAnimating = true;
-
-					if( reveal ) {
-						classie.add( container, 'modify' );
-					}
-					else {
-						noscroll = true;
-						disable_scroll();
-						classie.remove( container, 'modify' );
-					}
-
-					// simulating the end of the transition:
-					setTimeout( function() {
-						isRevealed = !isRevealed;
-						isAnimating = false;
-						if( reveal ) {
-							noscroll = false;
-							enable_scroll();
-						}
-					}, 1000 );
-				}
-
-				// refreshing the page...
-				var pageScroll = scrollY();
-				noscroll = pageScroll === 0;
-
-				disable_scroll();
-
-				if( pageScroll ) {
-					isRevealed = true;
-					classie.add( container, 'notrans' );
-					classie.add( container, 'modify' );
-				}
-
-				window.addEventListener( 'scroll', scrollPage );
-				trigger.addEventListener( 'click', function() { toggle( 'reveal' ); } );
-			})();
-		</script>
-	</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bruce Becker Ph.D.</title>
+    <meta
+      name="google-site-verification"
+      content="3yxDnnmP4fLTw1ABJ1C9vhMGFzzwwQamnl24KZKGFn0"
+    />
+    <meta
+      name="keywords"
+      content="Dr. Bruce Becker Ph.D. Digital Delta brucellino landing page"
+    />
+    <meta name="description" content="Bruce Becker Ph.D.'s home page'" />
+    <meta name="keywords" content="landing page" />
+    <meta name="author" content="Bruce Becker" />
+    <link rel="shortcut icon" href="../favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script
+      src="https://kit.fontawesome.com/fdf97fc667.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body class="demo-6">
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <div id="container" class="container intro-effect-grid">
+      <header class="header">
+        <ul class="grid">
+          <li>
+            <a href="http://brucellino.github.io/blog/">
+              <h2>Personal Writing</h2></a
+            >
+          </li>
+          <li>
+            <a href="http://orcid.org/0000-0002-6607-7145"
+              ><h2>Academic and Research</h2></a
+            >
+          </li>
+          <li><h2>Digital Delta</h2></li>
+        </ul>
+        <div class="bg-img">
+          <img src="img/background-4.jpg" alt="Background Image" />
+        </div>
+        <div class="title">
+          <h1>Bruce Becker Ph.D.</h1>
+          <div id="typed-strings">
+            <p>🏐 Ex volleyball freak and physicist⚛</p>
+            <p>🇿🇦 Southerner 🇮🇹</p>
+            <p>🏝 Islander 🌋</p>
+            <p>👶 Tripledad 🧔</p>
+            <p>🏗 Infrastructure Guy🚀</p>
+          </div>
+          <span id="typed"></span>
+          <h3>
+            <a href="http://orcid.org/0000-0002-6607-7145"
+              ><i class="fa-brands fa-orcid"></i>
+              orcid.org/0000-0002-6607-7145</a
+            >
+          </h3>
+          <h1>
+            <table cellpadding="10" align="center">
+              <tr>
+                <td>
+                  <a href="https://www.linkedin.com/in/brucellino/">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                </td>
+                <td>
+                  <a href="https://medium.com/@brusisceddu">
+                    <i class="fa-brands fa-medium"></i>
+                  </a>
+                </td>
+                <td>
+                  <a href="https://github.com/brucellino">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </td>
+                <td>
+                  <a href="http://stackoverflow.com/users/story/2707870">
+                    <i class="fa-brands fa-stack-overflow"></i>
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </h1>
+          <p class="subline">An African in the world</p>
+        </div>
+      </header>
+      <button class="trigger" data-info="What lies beneath ?">
+        <span>Trigger</span>
+      </button>
+      <article class="content"></article>
+    </div>
+    <!-- /container -->
+    <script src="js/classie.js"></script>
+    <script src="js/scroll.js"></script>
+    <script src="js/type.js"></script>
+  </body>
 </html>
