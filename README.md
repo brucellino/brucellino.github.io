@@ -1,2 +1,1 @@
-Bruce Becker's home page
-=========
+# Bruce Becker's home page
